@@ -1,0 +1,51 @@
+.rating{
+    display: flex;
+    align-items: center;
+    
+}
+
+.star-image{
+    margin-right: 5px;
+    height: 14px;
+   
+}
+
+.gray{
+    color: gray
+}
+.card{
+    width:300px;
+    height: 400px;
+    font-size: 15px;
+    /* border:2px solid red; */
+    border-radius:9px;
+    /* padding:20px; */
+    margin: 0 20px 20px  20px;
+    position:relative;
+
+}
+
+.card-image{
+height:100%;
+width:100%;   
+    
+}
+
+p{
+    margin-top: 5px;
+}
+.bold{
+    font-weight: bold;
+}
+.badge{
+    /* border: 2px solid red; */
+    font-size: 15px;
+    font-weight: 500;
+    position:absolute;
+    top:6px;
+    left:6px;
+    background-color: aliceblue;
+   border-radius: 5px;
+   text-align: center;
+   cursor: pointer;
+}
